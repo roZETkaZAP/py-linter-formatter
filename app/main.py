@@ -11,4 +11,4 @@ pass
 
 def format_linter_report(linter_report: dict) -> list:
     return [format_single_linter_file(part, linter_report[part]) for part in linter_report]
-    pass
+
