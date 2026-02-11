@@ -22,6 +22,7 @@ def format_linter_report(linter_report: dict) -> list:
         for part in linter_report
     ]
 
+
 errors = [
     {"errors": [], "path": "./test_source_code_2.py", "status": "passed"},
     {
