@@ -91,7 +91,6 @@ errors = [
 ]
 
 
-
 def format_linter_error(error: dict) -> dict:
     return {
         "line": error["line_number"],
@@ -115,3 +114,4 @@ def format_linter_report(linter_report: dict) -> list:
         format_single_linter_file(part, linter_report[part])
         for part in linter_report
     ]
+
